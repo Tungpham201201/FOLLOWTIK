@@ -1,11 +1,4 @@
 
-from os import system
-from time import time, strftime, gmtime, sleep
-import pyfiglet, os, threading
-from colorama import Fore, Back, Style
-from datetime import datetime
-from webdriver_manager.chrome import ChromeDriverManager
-
 system("cls")
 os.system('title TikTok Buff by Shawn')
 print(pyfiglet.figlet_format("TikTok Buff", font="slant"))
