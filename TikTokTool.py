@@ -49,9 +49,6 @@ class Zefoy:
         url1=input("\033[1;33m       => link video:  ")
       
         self.url=url1
-start = time()
-time_elapsed = strftime('%H:%M:%S', gmtime(time() - start))
-
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--mute-audio")
 chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
