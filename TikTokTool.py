@@ -1,17 +1,10 @@
-import os
-try:
-    import requests,colorama,prettytable
-except:
-    os.system("pip install requests")
-    os.system("pip install colorama")
-    os.system("pip install prettytable")
-import threading, requests, ctypes, random, json, time, base64, sys, re
-from prettytable import PrettyTable
-import random
-from time import strftime
-from colorama import init, Fore
-from urllib.parse import urlparse, unquote, quote
-from string import ascii_letters, digits
+from TikTokTool import webdriver
+from os import system
+from time import time, strftime, gmtime, sleep
+import pyfiglet, os, threading
+from colorama import Fore, Back, Style
+from datetime import datetime
+from webdriver_manager.chrome import ChromeDriverManager
 
 system("cls")
 os.system('title TikTok Buff by Shawn')
