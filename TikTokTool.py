@@ -1,4 +1,3 @@
-os.system('title TikTok Buff by Shawn')
 print(pyfiglet.figlet_format("TikTok Buff", font="slant"))
 print("\t\t\t\t\t\t\t\tMyBlog: https://ShawnSavour.xyz")
 print(pyfiglet.figlet_format("  by Shawn", font="slant"))
