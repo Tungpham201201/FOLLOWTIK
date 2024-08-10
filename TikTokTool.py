@@ -12,7 +12,6 @@ from time import strftime
 from colorama import init, Fore
 from urllib.parse import urlparse, unquote, quote
 from string import ascii_letters, digits
-os.system("cls" if os.name == "nt" else "clear")
 
 system("cls")
 os.system('title TikTok Buff by Shawn')
