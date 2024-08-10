@@ -1,4 +1,4 @@
-from selenium import webdriver
+
 from os import system
 from time import time, strftime, gmtime, sleep
 import pyfiglet, os, threading
