@@ -1,9 +1,54 @@
-print("TikTok Buff", font="slant")
-print("\t\t\t\t\t\t\t\tMyBlog: https://ShawnSavour.xyz")
-print("  by Shawn", font="slant")
-print("\t1. Views | Sends Views To Selected Video\n\t2. Likes | Sends Likes To Selected Video.\n\t3. Follows | Sends Followers To Selected User.\n")
-auto = int(input("\tEnter A Number: ")
-vidUrl = input("\n\tTikTok Video URL: ")
+import os
+try:
+    import requests,colorama,prettytable
+except:
+    os.system("pip install requests")
+    os.system("pip install colorama")
+    os.system("pip install prettytable")
+import threading, requests, ctypes, random, json, time, base64, sys, re
+from prettytable import PrettyTable
+import random
+from time import strftime
+from colorama import init, Fore
+from urllib.parse import urlparse, unquote, quote
+from string import ascii_letters, digits
+os.system("cls" if os.name == "nt" else "clear")
+
+print(f'''\033[1;32m
+    ████████╗██╗██╗░░██╗████████╗░█████╗░██╗░░██╗
+    \033[1;33m╚══██╔══╝██║██║░██╔╝╚══██╔══╝██╔══██╗██║░██╔╝
+    ░░░██║░░░██║█████═╝░░░░██║░░░██║░░██║█████═╝░
+   \033[1;36m ░░░██║░░░██║██╔═██╗░░░░██║░░░██║░░██║██╔═██╗░
+    ░░░██║░░░██║██║░╚██╗░░░██║░░░╚█████╔╝██║░╚██╗
+   \033[1;97m ░░░╚═╝░░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░░╚════╝░╚═╝░░╚═╝
+    ░░░╚═╝░░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░░╚════╝░╚═╝░░╚═╝
+
+      \033[1;34mTool Buff tiktok Vip by: Roasted_anonymous
+        [-----------------------------------]
+        \033[1;33m2.YouTube: 🔱 ROASTED_ANONYMOUS 🔱
+        \033[1;36m3.Zalo: 0983544223
+        \033[1;36m4.Facebook: Phạm Thanh Tùng
+        \033[0;35m5.Telegram: Roasted2001
+      [====================================]
+        \033[31m ╰☜ Cảm ơn đã sử dụng tool của tôi ☞╯ \n\033[31m             ╰☜ Chúc một ngày tốt lành ☞╯''')
+
+class Zefoy:
+    def __init__(self):
+        self.base_url = 'https://zefoy.com/'
+        self.headers = {'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'}
+        self.session = requests.Session()
+        self.captcha_1 = None
+        self.captcha_ = {}
+        self.service = 'Comments Hearts'
+        self.video_key = None
+        self.services = {}
+        self.services_ids = {}
+        self.services_status = {}
+        self.url = 'None'
+        self.text = 'Tool Zefoy'
+        url1=input("\033[1;33m       => link video:  ")
+      
+        self.url=url1
 start = time()
 time_elapsed = strftime('%H:%M:%S', gmtime(time() - start))
 
