@@ -1,6 +1,6 @@
-print(pyfiglet.figlet_format("TikTok Buff", font="slant"))
+print("TikTok Buff", font="slant"))
 print("\t\t\t\t\t\t\t\tMyBlog: https://ShawnSavour.xyz")
-print(pyfiglet.figlet_format("  by Shawn", font="slant"))
+print("  by Shawn", font="slant"))
 print("\t1. Views | Sends Views To Selected Video\n\t2. Likes | Sends Likes To Selected Video.\n\t3. Follows | Sends Followers To Selected User.\n")
 auto = int(input("\tEnter A Number: "))
 vidUrl = input("\n\tTikTok Video URL: ")
