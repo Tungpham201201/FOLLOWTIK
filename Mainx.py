@@ -55,9 +55,9 @@ def banner(console):
     colorful_text = gradient_text(brand_name, colors)
     console.print(colorful_text)
     console.print("[bold yellow]      ♕ CPKVN[/bold yellow][bold red]: Car Parking 1 Hacking Tool VietNames.[/bold red]")
-    console.print("[bold yellow]      ♕ Facebook:[/bold yellow][bold red] {__CHANNEL_USERNAME__}[/bold red]")
-    console.print("[bold yellow]      ♕ Tiktok:[/bold yellow][bold red] @{__TIKTOK__}[/bold red]")
-    console.print("[bold yellow]      ♕ Zalo: [/bold yellow][bold red]{__ZALO__}[/bold red]")
+    console.print(f"[bold yellow]      ♕ Facebook:[/bold yellow][bold red] {__CHANNEL_USERNAME__}[/bold red]")
+    console.print(f"[bold yellow]      ♕ Tiktok:[/bold yellow][bold red] @{__TIKTOK__}[/bold red]")
+    console.print(f"[bold yellow]      ♕ Zalo: [/bold yellow][bold red]{__ZALO__}[/bold red]")
     console.print("[bold yellow]   ==================================================[/bold yellow]")
     console.print("[bold red]    《 Lưu ý:[/bold red][bold red]: Đăng xuất tài khoản trước khi hack 》", end="\n\n")
 
